@@ -10,7 +10,7 @@ CORS(app)
 def load_fake_db():
     try:
         # Percorso assoluto al file JSON
-        json_file_path = '.\db.json'
+        json_file_path = './db.json'
         
         # Carica il contenuto del file JSON
         with open(json_file_path, 'r') as f:
